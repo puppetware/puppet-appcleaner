@@ -1,1 +1,1 @@
-include appcleaner
+class {'appcleaner': }

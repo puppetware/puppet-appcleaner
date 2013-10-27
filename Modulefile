@@ -1,11 +1,11 @@
 name 'skoblenick-appcleaner'
-version '0.1.0'
+version '0.2.0'
 
 author 'skoblenick'
 license 'MIT License'
 project_page 'https://github.com/skoblenick/puppet-appcleaner'
 source 'https://github.com/skoblenick/puppet-appcleaner'
-summary 'A Puppet module to install AppCleaner for OS X'
-description 'A Puppet module to install AppCleaner for OS X'
+summary 'A Puppet module to install AppCleaner'
+description 'A Puppet module to install AppCleaner'
 
 dependency 'puppetlabs/stdlib', '>=4.1.0'

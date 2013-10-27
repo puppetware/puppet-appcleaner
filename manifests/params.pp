@@ -12,6 +12,6 @@
 #
 class appcleaner::params {
 
-  $version = '2.2'
+  $version = '2.2.1'
 
 }
