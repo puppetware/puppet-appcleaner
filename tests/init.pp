@@ -1,1 +1,3 @@
-class {'appcleaner': }
+class {'appcleaner':
+  version => '2.2.3',
+}

@@ -12,7 +12,7 @@ Supported Platforms:
 Examples
 --------
 
-Install AppCleaner 2.2.1:
+Install AppCleaner 2.2.3:
 
 ```
 class {'appcleaner': }

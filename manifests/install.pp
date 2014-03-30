@@ -13,13 +13,8 @@
 class appcleaner::install {
   $version = $appcleaner::version
 
-  case $::kernel {
-    'Darwin': {
-       $source = "http://www.freemacsoft.net/downloads/AppCleaner_${version}.zip"
-    }
-    default: {
-      fail("Unsupported Kernel: ${::kernel} operatingsystem: ${::operatingsystem}")
-    }
+  $source = $::osfamily ? {
+    'Darwin' => "http://www.freemacsoft.net/downloads/AppCleaner_${version}.zip",
   }
 
   Exec {
